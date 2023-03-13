@@ -9,12 +9,16 @@
     <title>Password Generator</title>
 </head>
 <body>
-    <button onclick="CopyPaste()">Copy and Paste</button>
+    <div class="troll">
+    <input type="button"
+    value="Copy and Paste"
+    onclick="redirect()">
     <script>
-        function CopyPaste(){
-            window.location.href("https://pellefisk.github.io/troll/")
+        function redirect(){
+            window.location.href ='https://pellefisk.github.io/troll/'
         }
     </script>
+    </div>
     <div class="container">
         <h1 class="title">Password Generator</h1>
         <h3 class="password-display" id="passwordDisplay">password</h3>
